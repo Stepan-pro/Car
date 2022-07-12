@@ -1,0 +1,39 @@
+.register-form{
+  width: 20rem;
+  height: 20rem;
+  margin-top: 5rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.register-form p{
+  font-family: "Arial Black", sans-serif;
+  font-size: 1.2rem;
+  color: black;
+  height: 4rem;
+}
+
+.register-form div{
+  height: 3rem;
+}
+
+.register-form input{
+  height: 2rem;
+  width: 15rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.register-form button{
+  height: 2rem;
+  width: 10rem;
+  color: #333333;
+  font-size: 1rem;
+  font-family:"Times New Roman",sans-serif;
+  margin: 0.5rem;
+}
+
+.register-form span{
+  color: red;
+}

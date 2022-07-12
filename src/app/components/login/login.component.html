@@ -1,0 +1,6 @@
+<form [formGroup]="form" class="loginForm">
+  <p>Sign in</p>
+  <div><label><input placeholder="username" type="text" formControlName="username"></label></div>
+  <div><label><input placeholder="password" type="text" formControlName="password"></label></div>
+  <button (click)="login()">Sign in</button>
+</form>

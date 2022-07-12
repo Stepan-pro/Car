@@ -1,0 +1,11 @@
+<form [formGroup]="form" class="register-form">
+  <p>Sign up</p>
+  <div><label><input placeholder="username" type="text" formControlName='username'></label></div>
+
+  <div><label> <input placeholder="password" type="text" formControlName='password'></label></div>
+  <div><label> <input placeholder="confirmPassword" type="text" formControlName='confirmPassword'></label></div>
+  <span *ngIf="form.errors">{{form.errors['notSame']}}</span>
+  <span *ngIf="userNameError">{{userNameError}}</span>
+  <p><button [disabled]="form.invalid" (click)="register()">sign up</button></p>
+</form>
+
